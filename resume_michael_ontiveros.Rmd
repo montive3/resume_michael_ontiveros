@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "resume_michael_ontiveros"
 author: Michael Ontiveros
 output:
   pagedown::html_resume:
@@ -47,7 +47,7 @@ Contact
 
 <i class="fa fa-phone"></i> <a href="tel:1-999-999-9999">1-562-639-8481</a>
 
-<i class="fa fa-envelope"></i> michaelontiveros497@gmail.com
+<i class="fa fa-envelope"></i> montive97@gmail.com
 
 <i class="fa fa-github"></i> [github.com/montive3](http://github.com/montive3)
 
