@@ -1,0 +1,193 @@
+---
+title: "Resume"
+author: Michael Ontiveros
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: TRUE
+---
+
+```{css, echo=FALSE}
+body {
+  font-family: "Times", serif;
+  font-weight: 300;
+  line-height: 1;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica", serif;
+  color:  #0a3385;
+}
+
+a {
+  font-family: "Times", serif;
+  color:  #FF0000;
+}
+
+.pagedjs_page {
+  --sidebar-background-color: #f2f2f7;
+}
+
+.main-block {
+  break-inside: avoid
+}
+```
+
+Aside
+================================================================================
+
+Contact
+--------------------------------------------------------------------------------
+
+<i class="fa fa-phone"></i> <a href="tel:1-999-999-9999">1-562-639-8481</a>
+
+<i class="fa fa-envelope"></i> michaelontiveros497@gmail.com
+
+<i class="fa fa-github"></i> [github.com/montive3](http://github.com/montive3)
+
+<i class="fa fa-linkedin"></i> [linkedin.com/in/michael-o/](https://www.linkedin.com/in/michael-o/)
+
+Summary
+--------------------------------------------------------------------------------
+
+I create case studies for educators which illustrate data analysis with R.
+
+My research examines the role of area-level factors on the availability of treatment for opioid use disorders.
+
+I have extensive experience with both R and GIS.
+
+Technical Skills
+--------------------------------------------------------------------------------
+
+<i class="fa fa-bar-chart"></i> R
+
+<i class="fa fa-globe"></i> GIS
+
+<i class="fa fa-bar-chart"></i> STATA
+
+Interests
+--------------------------------------------------------------------------------
+
+<i class="fa fa-globe"></i> Spatial Epidemiology
+
+<i class="fa fa-medkit"></i> Harm Reduction
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+```{r, echo=FALSE}
+today <- Sys.Date()
+todayformat<- format(today, format="%B %Y")
+```
+
+**`r paste0(todayformat)`**
+
+Made with [**RStudio's pagedown**](https://github.com/rstudio/pagedown).
+
+Main
+================================================================================
+
+Michael Ontiveros {#title}
+--------------------------------------------------------------------------------
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Johns Hopkins School of Public Health
+
+Master of Health Science in Epidemiology
+
+Baltimore, MD
+
+2020
+
+Degree conferred August 26^th^.
+
+### Johns Hopkins University
+
+Bachelor of Arts in Public Health Studies
+
+Baltimore, MD
+
+2019
+
+Professional Experience {data-icon=user-tie data-concise=true}
+--------------------------------------------------------------------------------
+
+### Data Analyst, Department of Biostatistics
+
+Johns Hopkins School of Public Health
+
+Baltimore, MD
+
+2020 - 2019
+
+Produced reproducible visualization and statistical analyses of real-world questions for use as data science educational materials
+
+Proposed and designed new analyses for development
+
+### Intern & Volunteer, Syringe Services Program
+
+Bienestar Human Services
+
+Los Angeles, CA
+
+2017
+
+Led efforts at the syringe services program to improve service delivery by creating harm reduction training materials and protocols for staff
+
+Assisted with data management and dissemination for external funders of public and private origin
+
+Selected Publications {data-icon=book data-concise=true}
+--------------------------------------------------------------------------------
+
+### Buprenorphine Provider Prevalence Among Counties in the Northeastern United States
+
+Co-authors: <a href="https://www.jhsph.edu/faculty/directory/profile/2399/timothy-m-shields" target="Tim M. Shields, MA">Tim M. Shields, MA</a>, <a href="https://www.jhsph.edu/faculty/directory/profile/164/frank-c-curriero" target="Frank C. Curriero, PhD">Frank C. Curriero, PhD</a>.
+
+N/A
+
+2020
+
+Manuscript in progress. 
+
+Notable Coursework {data-icon=pencil-alt data-concise=true}
+--------------------------------------------------------------------------------
+
+### Infectious Disease Dynamics: Theoretical and Computational Approaches
+
+Johns Hopkins Bloomberg School of Public Health
+
+N/A
+
+2020
+
+### Public Health Surveillance
+
+Johns Hopkins Bloomberg School of Public Health
+
+N/A
+
+2020
+
+### COVID-19 Contact Tracing
+
+Coursera
+
+N/A
+
+2020
+
+### Spatial Statistics
+
+Johns Hopkins Bloomberg School of Public Health
+
+N/A
+
+2019
